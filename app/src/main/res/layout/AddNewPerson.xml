@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource">
 
     <data>
 
@@ -120,8 +121,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
-                    android:background="#fff"
-                    android:entries="@array/body_state">
+                    android:background="#fff">
 
                 </androidx.appcompat.widget.AppCompatSpinner>
 
@@ -159,8 +159,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
-                    android:background="#fff"
-                    android:entries="@array/person_type">
+                    android:background="#fff">
 
                 </androidx.appcompat.widget.AppCompatSpinner>
 
@@ -184,8 +183,7 @@
                 android:id="@+id/sp_contact"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:background="#fff"
-                android:entries="@array/contact_type">
+                android:background="#fff">
 
             </androidx.appcompat.widget.AppCompatSpinner>
         </LinearLayout>
@@ -198,7 +196,8 @@
             android:background="@drawable/shape_bg_fff_r_20"
             android:text="提交"
             android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:textColor="@color/black_3c" />
+            android:layout_marginRight="30dp">
+
+        </Button>
     </LinearLayout>
 </layout>
